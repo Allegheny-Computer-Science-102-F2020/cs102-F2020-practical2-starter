@@ -1,6 +1,7 @@
 """Search for an email address given a fragment of a job description."""
 
-import csv
+# TODO: Add the required import for the csv module to support the
+# parsing of the contact database stored in the provided file
 
 
 def search_for_email_given_job(job_description: str, contacts: str):
